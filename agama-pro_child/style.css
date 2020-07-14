@@ -1,0 +1,27 @@
+/*
+Template: agama-pro
+Theme Name: Agama Pro Child
+Theme URI: http://theme-vision.com/agama-pro/
+Description: Agama Pro Child Theme
+Author: Jaroslav Svetlik
+Author URI: http://theme-vision.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, white, one-column, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: agama-pro-child
+*/
+/************************************************************************************
+
+
+Put your custom CSS below this block :)
+
+
+*************************************************************************************/
+/*a .menu-link .main-menu-link{
+	border-bottom-color: transparent;
+}*/
+
+.main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home{
+    	border-bottom-color: transparent;
+}

@@ -1,0 +1,36 @@
+#agama-widgets-selector {
+    width: 100%;
+    margin: 0;
+}
+#agama-widgets-selector li {
+    display: inline-block;
+    width: 50%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #eee;
+}
+#agama-widgets-selector li.active {
+    background-color: #fff;
+}
+#agama-widgets-selector li.active span {
+    color: #333;
+}
+#agama-widgets-selector li span {
+    color: #777;
+    font-weight: bold;
+}
+#available-widgets .other-widgets-wrapper {
+    display: none;
+}
+div[id*="widget-tpl-agama_widget_about-"] .widget-title:before {
+    content: '\f209' !important;
+}
+div[id*="widget-tpl-agama_widget_blog_tabs-"] .widget-title:before {
+    content: '\f333' !important;
+}
+div[id*="widget-tpl-agama_widget_flickr-"] .widget-title:before {
+    content: '\f128' !important;
+}

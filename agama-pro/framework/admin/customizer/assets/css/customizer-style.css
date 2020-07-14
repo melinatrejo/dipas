@@ -1,0 +1,113 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+li.accordion-section.control-section.control-panel.control-panel-default h3:before,
+li.accordion-section.control-section.control-section-kirki-default h3:before {
+    font-family: FontAwesome;
+}
+#accordion-section-agama_page_builder_section {
+    position: relative;
+}
+#accordion-section-agama_page_builder_section:after {
+    content: '\new' !important;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    color: red;
+    z-index: 1;
+}
+#accordion-section-agama_page_builder_section h3:before {
+    content: '\f0f7';
+}
+#accordion-panel-title_tagline_panel h3:before {
+    content: '\f2ba';
+}
+#accordion-panel-agama_general_panel h3:before {
+    content: '\f085';
+}
+#accordion-panel-agama_header_panel h3:before {
+    content: '\f1dc';
+}
+#accordion-panel-agama_navigations_panel h3:before {
+    content: '\f0c9';
+}
+#accordion-panel-agama_layout_panel h3:before {
+    content: '\f0db';
+}
+#accordion-panel-agama_slider_panel h3:before {
+    content: '\f1de';
+}
+#accordion-panel-nav_menus h3:before {
+    content: '\f0c9';
+}
+#accordion-panel-agama_breadcrumb_panel h3:before {
+    content: '\f09d';
+}
+#accordion-panel-agama_frontpage_boxes_panel h3:before {
+    content: '\f009';
+}
+#accordion-panel-agama_blog_panel h3:before {
+    content: '\f1ad';
+}
+#accordion-section-agama_portfolio_section h3:before {
+    content: '\f00a';
+}
+#accordion-section-agama_social_icons_section h3:before {
+    content: '\f230';
+}
+#accordion-section-agama_share_icons_section h3:before {
+    content: '\f1e0';
+}
+#accordion-panel-woocommerce h3:before {
+    content: '\f291';
+}
+#accordion-panel-widgets h3:before {
+    content: '\f0ca';
+}
+#accordion-section-agama_contact_section h3:before {
+    content: '\f1d9';
+}
+#accordion-panel-agama_footer_panel h3:before {
+    content: '\f2d1';
+}
+#customize-theme-controls #accordion-section-agama_support_section .accordion-section-title:after {
+    color: #fff;
+}
+#customize-theme-controls #accordion-section-agama_support_section .accordion-section-title {
+    background-color: rgba(247, 168, 5, 0.9);
+    color: #fff;
+}
+#customize-theme-controls #accordion-section-agama_support_section .accordion-section-title:hover {
+    background-color: rgba(247, 168, 5, 1);
+}
+#customize-theme-controls #accordion-section-agama_support_section .theme-info a {
+    padding: 10px 8px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+#customize-theme-controls #accordion-section-agama_support_section .theme-info a:hover {
+    color: #222;
+    background-color: #f5f5f5;
+}
+.theme-headers label > input[type="radio"] {
+  display: none;
+}
+.theme-headers label > input[type="radio"] + img{
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.theme-headers label > input[type="radio"]:checked + img{
+  border: 2px solid #f00;
+}
+/* Media Logo */
+#customize-control-agama_media_logo #input_agama_media_logo {
+    display: block;
+    text-align: center;
+}
+#customize-control-agama_media_logo label {
+    padding-right: 20px;
+}
+#customize-control-agama_media_logo label:last-child {
+    padding-right: 0;
+}
