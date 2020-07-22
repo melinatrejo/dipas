@@ -18,10 +18,3 @@ Put your custom CSS below this block :)
 
 
 *************************************************************************************/
-/*a .menu-link .main-menu-link{
-	border-bottom-color: transparent;
-}*/
-
-.main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home{
-    	border-bottom-color: transparent;
-}
